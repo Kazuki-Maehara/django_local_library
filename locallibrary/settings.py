@@ -137,7 +137,7 @@ STATIC_URL = '/static/'
 
 # Extra places for collectistatic to find static files.
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static'),
 )
 
 # Redirect to home URL after login (Default redirections to /accounts/profile/)
